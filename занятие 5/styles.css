@@ -30,16 +30,14 @@ h2 {
     color: goldenrod;
 }
 
-p {
-    
+p {    
     line-height: 2;
     text-indent: 20px;
     text-align: center;
 }
 
 img {
-    height: 200px;
-  
+    height: 200px;  
 }
 
 div {
