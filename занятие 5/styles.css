@@ -1,0 +1,56 @@
+@font-face {
+    font-family: 'slant';
+    src: url(fonts/slant.otf); 
+}
+
+p { 
+    text-align: center;
+}
+
+table {
+    text-align: center;       
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px
+}
+
+h1 { 
+    font: 2rem 'Slant';
+    text-align: center;
+    text-transform: uppercase;
+    color: goldenrod;
+}
+
+h2 { 
+    font: 1.5rem 'Slant';
+    text-transform: capitalize;
+    letter-spacing: 5px;
+    color: goldenrod;
+}
+
+p {    
+    line-height: 2;
+    text-indent: 20px;
+    text-align: center;
+}
+
+img {
+    height: 200px;  
+}
+
+div {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+th {
+    font-style: italic;
+    color:#fff;
+    background-color: darkgray;
+}
