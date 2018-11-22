@@ -33,7 +33,7 @@ body{
 }
 
 .mask{
-    background-color: rgba( 0,0,0,0.7);
+    background-color: rgba(216, 23, 23, 0.7);
     position: absolute;
     top: 0;
     bottom: 0;
@@ -210,8 +210,9 @@ body{
 }
 .footer{
     background-color: rgb(161, 153, 153);
-    margin-top: 140px;
+    margin-top: 10px;
 }
+
 #block3 {
     min-height: 100%;
 }
