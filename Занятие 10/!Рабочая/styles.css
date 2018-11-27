@@ -1,6 +1,6 @@
 @font-face{
     font-family:'CocaCola';
-    src: url(fonts/CocaCola.woff);
+    src: url(fonts/CocaCola.woff); 
 }
 
 html, body {
@@ -90,19 +90,20 @@ html, body {
     display: inline-block;
     list-style-type: none; 
     padding: 20px;
-    background-color: rgba(228, 22, 228, 0.5);
+    background-color: rgba(228, 22, 228,0.5);
     margin-left: -5px;
-    border-radius: 60px 20px;
+    border-radius: 0px;
 }
 .rock {
-    margin: 10px 0 0 0;
+    margin: 0px;
     padding: 0 0 0 5px;
     text-align: left;
+    background-color: rgba(228, 22, 228,1);
 }
 
 .rock li:hover {
-    background: none;
-    border-radius: 50px;
+    background: #2f05ee;
+    border-radius: 20px;
 }
 
 .text {
@@ -113,7 +114,7 @@ html, body {
 }
 
 .text:visited {
-    color: #f7df04;
+    color:  #f0ec06;
 }
 
 .roll {
@@ -126,3 +127,32 @@ html, body {
     border-top: solid 5px black;
     margin-top: -5px;
 }
+
+ .rock li:hover, 
+ .rock li:first-child {
+    background-color: #2f05ee;
+}
+
+.content {
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
